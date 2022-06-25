@@ -4,5 +4,22 @@
   "description": "Simple service to consume Metropolitan Museum API",
   "main": "index.ts",
   "author": "Raul Mello <raulmello.rms@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./out",
+    "build": "tsc",
+    "dev": "nodemon index.ts",
+    "start": "node ./out/index.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
