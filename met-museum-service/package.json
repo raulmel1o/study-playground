@@ -1,0 +1,8 @@
+{
+  "name": "met-museum-service",
+  "version": "0.0.1",
+  "description": "Simple service to consume Metropolitan Museum API",
+  "main": "index.ts",
+  "author": "Raul Mello <raulmello.rms@gmail.com>",
+  "license": "MIT"
+}
